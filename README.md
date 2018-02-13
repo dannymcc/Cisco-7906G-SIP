@@ -20,4 +20,9 @@ In the example SEP configuration file, the following values have been set:
     
 All other settings can be ignored for the purpose of the inital configuration. You must change every occurance of the above settings throughout the configuration file.
 
+### Firmware Versions and Upgrading
+
+The firmware version that has been tested for these configuration files is `SIP11.9-4-2SR1-1S`. You can download the firmware files directly from Cisco - you will need to register for a free account. At the time of writing the link for the firmware files is [here](https://software.cisco.com/download/release.html?mdfid=280607214&softwareid=282074288&os=&release=9.4(2)SR3&relind=AVAILABLE&rellifecycle=&reltype=latest&i=!pp), however, I have included the firmware files in this repository for reference.
+
+
 
