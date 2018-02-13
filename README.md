@@ -24,5 +24,15 @@ All other settings can be ignored for the purpose of the inital configuration. Y
 
 The firmware version that has been tested for these configuration files is `SIP11.9-4-2SR1-1S`. You can download the firmware files directly from Cisco - you will need to register for a free account. At the time of writing the link for the firmware files is [here](https://software.cisco.com/download/release.html?mdfid=280607214&softwareid=282074288&os=&release=9.4(2)SR3&relind=AVAILABLE&rellifecycle=&reltype=latest&i=!pp), however, I have included the firmware files in this repository for reference.
 
+### Dialplan
+
+The included `dialplan.xml` gives some examples available. The dialplan file tells the handset how long to pause before dialling a number once it has been entered.
+
+### Ringtones
+
+I have included a `ringlist.xml` file as an example of how to add new ringtones to the handsets. If you monitor the TFTP server logs when navigating the handset menu and requesting a new background or ringtone, you will see which files the handset requests. This is very useful when setting up the TFTP file structure.
+
+When including ringtone .raw files, it's simplest to include them in the root directory of the TFTP server along with the firmware and configuration files.
+
 
 
