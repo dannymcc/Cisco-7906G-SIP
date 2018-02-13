@@ -1,0 +1,1 @@
+307       SIP11.9-4-2SR1-1S     11             // IP Phone 7911G SIP
